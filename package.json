@@ -1,0 +1,26 @@
+{
+  "name": "it23703544-assignment-1",
+  "version": "1.0.0",
+  "description": "Playwright tests for Singlish to Sinhala translator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:positive": "playwright test positive-functional",
+    "test:negative": "playwright test negative-functional",
+    "test:ui": "playwright test ui-conversion",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "show-report": "playwright show-report",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": ["playwright", "testing", "singlish", "sinhala"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.1.0"
+  }
+}
