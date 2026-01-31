@@ -149,7 +149,7 @@ Tests verify that incorrect or malformed inputs do NOT produce expected wrong ou
 
 ### Key Configuration Settings
 - **Workers:** 1 (sequential execution for stability with live site)
-- **Timeout:** 30 seconds per test
+- **Timeout:** 2 minutes per test
 - **Retries:** 1 retry on failure (2 on CI)
 - **Base URL:** https://www.swifttranslator.com/
 - **Viewport:** 1280x720
